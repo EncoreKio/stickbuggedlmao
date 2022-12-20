@@ -7,6 +7,6 @@ button.addEventListener("click",startStick);
 function startStick(){
     button.className = "hidden";
     gif.className = "";
-    audio.play;
+    audio.play();
     document.title = "Get stick bugged lmao";
 }
